@@ -1,0 +1,10 @@
+.DS_Store
+yarn.lock
+node_modules/
+.idea
+.history
+
+.yalc/
+src/**/*.i18n/
+
+.cursor/
