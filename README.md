@@ -49,7 +49,7 @@ npm run tiny-image
 
 > 注意：压缩结束之后，会在配置文件同级目录下创建一个缓存文件：`tiny-cache.json`，为了避免重复压缩，强烈建议把这个文件纳入git控制中。
 
-![npm run tiny-image](https://wiki.firstshare.cn/download/attachments/221138870/image2023-3-15_17-21-35.png)
+![npm run tiny-image](./image2023-3-15_17-21-35.png)
 
 ### 关于`cache.json`
 经过压缩的图片会保留一条缓存记录，为`文件名: 最后修改时间戳`：
