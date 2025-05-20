@@ -1,0 +1,45 @@
+{
+  "name": "tiny-image",
+  "version": "1.1.4",
+  "description": "a tool for WEBP, JPEG and PNG files compression. with TinyPNG, can reduce the file size by a smart lossy compression techniques.",
+  "main": "index.js",
+  "bin": {
+    "tiny-image": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "git add . && git cz && np --any-branch --yolo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.firstshare.cn:marketing-fe-project/tiny-image.git"
+  },
+  "keywords": [
+    "WEBP",
+    "JPEG",
+    "PNG",
+    "compression"
+  ],
+  "author": "hupeng <hup9941@fxiaoke.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cli-table": "^0.3.11",
+    "commander": "^10.0.0",
+    "glob": "^9.3.4",
+    "progress": "^2.0.3",
+    "tinify": "^1.7.1"
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0",
+    "np": "^7.6.3"
+  },
+  "publishConfig": {
+    "registry": "https://registry-npm.firstshare.cn",
+    "access": "public"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
