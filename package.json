@@ -1,6 +1,6 @@
 {
   "name": "fxiaoke-tiny-image",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "description": "a tool for WEBP, JPEG and PNG files compression. with TinyPNG, can reduce the file size by a smart lossy compression techniques.",
   "main": "index.js",
   "bin": {
